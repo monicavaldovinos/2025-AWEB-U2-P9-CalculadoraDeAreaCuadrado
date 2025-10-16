@@ -4,22 +4,25 @@ body{
     display: flex;
     background-color: rgb(168, 219, 230);
     padding-top: 200px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .contenedorPrincipal{
+
     width: 300px;
     margin: auto;
     border: 1px solid black;
     border-radius: 20px;
     background-color: white;
-    padding: 10px;
+    padding: 25px;
 }
 .mensajeCorrecto{
-    background-color: rgb(138, 196, 138);
-    color: rgb(15, 93, 15)
+    background-color: rgb(162, 206, 162);
+    color: rgb(13, 62, 13)
+    
 }
 .mensajeIncorrecto{
-    background-color: rgb(196, 138, 138);
-    color: rgb(184, 3, 3)
+    background-color: rgb(219, 181, 181);
+    color: rgb(125, 4, 4)
 }
 h1{
     font-family: Arial, Helvetica, sans-serif;
@@ -27,6 +30,21 @@ h1{
 button{
     border-radius: 10px;
     background-color: rgb(168, 219, 230);
-    width: 170px;   
+    width: 200px;   
+    height: 32px;
+    border: 1px solid black;
+
+}
+input{
+    border-radius: 10px;
     height: 25px;
+    width: 190px;
+}
+div{
+    margin-top: 25px;
+    padding: 7px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    border-color: rgb(81, 88, 89);
 }
